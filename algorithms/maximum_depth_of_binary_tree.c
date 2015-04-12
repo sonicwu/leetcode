@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 struct TreeNode {
-	 int val;
-	 struct TreeNode *left;
-	 struct TreeNode *right;
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
 };
 
 int maxDepth(struct TreeNode *root) {
